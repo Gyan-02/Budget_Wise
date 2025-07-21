@@ -8,7 +8,7 @@ const transactionRouter = require('./routes/transactionRouter');
 const port =3000;
 const app= express();
 
-mongoose.connect("mongodb+srv://user1:pass1@cluster1.ddwffa4.mongodb.net/Stacks")
+mongoose.connect("mongodb+srv://user1:pass1....")
 .then(()=> console.log("DB_CONNECTED"))
 .catch((e)=> console.log((e)))
 
